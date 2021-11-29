@@ -48,7 +48,7 @@ export function Content(props: selectedGenreIdProps) {
   }, [props.selectedGenreId])
 
   return (
-    <>
+    <div className="container">
       <header>
         <span className="category">
           Categoria:<span> {selectedGenre.title}</span>
@@ -68,6 +68,6 @@ export function Content(props: selectedGenreIdProps) {
           ))}
         </div>
       </main>
-    </>
+    </div>
   )
 }
